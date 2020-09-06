@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <RtTargetFile>$(ProjectDir)scripts\project.generated.ts</RtTargetFile>
+    <RtConfigurationMethod>Web.ReinforcedTypingsConfiguration.Configure</RtConfigurationMethod>
+    <RtDivideTypesAmongFiles>false</RtDivideTypesAmongFiles>
+    <RtTargetDirectory>$(ProjectDir)Scripts\MyApplication</RtTargetDirectory>
+    <RtBypassTypeScriptCompilation>false</RtBypassTypeScriptCompilation>
+    <RtDisable>false</RtDisable>
+    <RtForceTargetFramework>netcoreapp3.1</RtForceTargetFramework>
+  </PropertyGroup>
+</Project>
